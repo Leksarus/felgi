@@ -1,0 +1,25 @@
+.menu {
+	width: $contentWidth;
+	height: $searchBarHeight;
+	background-color: $menuColor;
+	margin: auto;
+	margin-top: 10px;
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			display: table-cell;
+			border-right: 1px solid #000;
+			line-height: 49px;
+			float: left;
+			color: #fff;
+			padding-left: 20px;
+			padding-right: 20px;
+			img {
+				vertical-align: middle;
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+}
