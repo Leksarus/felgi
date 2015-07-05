@@ -156,13 +156,13 @@
 
 .bottomContent {
 	width: $contentWidth;
-	height: 800px;
+	height: 680px;
 	background-color: #fff;
 	margin: auto;
 	margin-top: 20px;
 	padding-top: 20px;
 	clear: both;
-	span {
+	h3 {
 		clear: both;
 		color: #000;
 		font-size: 25px;
@@ -193,8 +193,10 @@
 				height: 120px;
 				margin-bottom: 30px;
 			}
-			span {
+			span.name {
+				display: block;
 				font-size: 16px;
+				margin-bottom:	 15px;
 				/*
 				&:last-child {
 					font-size: 13px;
@@ -203,7 +205,9 @@
 				}
 				 */
 			}
-			.producent {
+			span.producent {
+				display: block;
+				padding-top: 20px;
 				font-size: 13px;
 				color: $grey;
 				margin: 0;
@@ -228,8 +232,9 @@
 }
 
 .bottomFrame {
+	bottom: 30px;
 	width: 980px;
-	height: 400px;
+	height: 270px;
 	margin: auto;
 	background-color: $lowerFrame;
 	table {
@@ -289,6 +294,19 @@
 				border-radius: 5px;
 				padding-left: 10px;
 				font-family: sans-serif;
+			}
+			a {
+				margin-top: 3px;
+				float: right;
+				text-decoration: none;
+				color: #FFF;
+				display: block;
+				width: 40px;
+				height: 30px;
+				background: linear-gradient($greyGradient1, $greyGradient2);
+				border-radius: 4px;
+				line-height: 30px;
+				padding-left: 10px; 
 			}
 		}		
 	}
