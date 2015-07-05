@@ -1,0 +1,548 @@
+/* line 1, ../sass/_header.scss */
+.header {
+  width: 1020px;
+  height: 215px;
+  margin: auto;
+}
+/* line 5, ../sass/_header.scss */
+.header hr {
+  margin-top: 20px;
+  border-color: #2c2c2c;
+}
+
+/* line 10, ../sass/_header.scss */
+.headerRight {
+  float: right;
+  width: 264px;
+}
+
+/* line 14, ../sass/_header.scss */
+.headerButtons {
+  display: table-cell;
+  width: 130px;
+  height: 30px;
+  background: linear-gradient(#fc3334, #e00e0f);
+  margin-left: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 30px;
+  font-size: 12px;
+  padding-top: 5px;
+  float: right;
+}
+
+/* line 28, ../sass/_header.scss */
+.headerButtonsGraphic {
+  margin-left: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* line 33, ../sass/_header.scss */
+.headerRightBottom {
+  padding-right: 20px;
+  padding-left: 20px;
+  float: right;
+  margin-top: 10px;
+  width: 224px;
+  height: 167px;
+  background: linear-gradient(#333333, #1c1c1c);
+  color: #fff;
+  font-family: "Times New Roman", serif;
+  font-size: 13px;
+}
+/* line 44, ../sass/_header.scss */
+.headerRightBottom span {
+  font-size: 30px;
+  font-weight: bold;
+}
+/* line 47, ../sass/_header.scss */
+.headerRightBottom span.q {
+  padding-top: 10px;
+  display: table-cell;
+  font-size: 13px;
+  padding-left: 153px;
+  padding-right: 5px;
+}
+/* line 53, ../sass/_header.scss */
+.headerRightBottom span.q img {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  padding-left: 6px;
+}
+/* line 59, ../sass/_header.scss */
+.headerRightBottom span.q a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 67, ../sass/_header.scss */
+.buy {
+  position: relative;
+  left: 38px;
+  top: 38px;
+}
+/* line 71, ../sass/_header.scss */
+.buy img {
+  height: 50px;
+  width: 50px;
+}
+
+/* line 77, ../sass/_header.scss */
+div.headerLeft {
+  float: left;
+  width: 754px;
+  height: 213px;
+}
+/* line 81, ../sass/_header.scss */
+div.headerLeft .logo {
+  float: left;
+  width: 230px;
+  height: 80px;
+  padding-left: 30px;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  margin-right: 60px;
+}
+/* line 91, ../sass/_header.scss */
+div.headerLeft .grille {
+  height: 160px;
+  width: 60px;
+  float: right;
+  padding-right: 20px;
+}
+/* line 97, ../sass/_header.scss */
+div.headerLeft .contact {
+  width: 330px;
+  height: 130px;
+}
+/* line 101, ../sass/_header.scss */
+div.headerLeft input {
+  border: none;
+  padding-left: 20px;
+  width: 736px;
+  float: left;
+  height: 49px;
+}
+/* line 108, ../sass/_header.scss */
+div.headerLeft span {
+  float: left;
+}
+/* line 110, ../sass/_header.scss */
+div.headerLeft span img {
+  position: relative;
+  left: 710px;
+  bottom: 45px;
+  width: 40px;
+  height: 40px;
+}
+/* line 118, ../sass/_header.scss */
+div.headerLeft hr {
+  position: relative;
+  bottom: 110px;
+  width: 754px;
+}
+
+/* line 1, ../sass/_menu.scss */
+.menu {
+  width: 1020px;
+  height: 49px;
+  background-color: #2b2b2b;
+  margin: auto;
+  margin-top: 10px;
+}
+/* line 7, ../sass/_menu.scss */
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+/* line 10, ../sass/_menu.scss */
+.menu ul li {
+  display: table-cell;
+  border-right: 1px solid #000;
+  line-height: 49px;
+  float: left;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 18, ../sass/_menu.scss */
+.menu ul li img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 1, ../sass/_main-content.scss */
+.upperContent {
+  width: 1020px;
+  height: 380px;
+  margin: auto;
+  margin-top: 20px;
+  clear: both;
+}
+/* line 7, ../sass/_main-content.scss */
+.upperContent div.nissan {
+  float: left;
+  width: 600px;
+  height: 380px;
+  background: url("../images/main-content/nissan.jpg");
+  background-size: 100% 100%;
+}
+/* line 13, ../sass/_main-content.scss */
+.upperContent div.nissan a > div {
+  background: linear-gradient(#6e6e6e, #5e5e5e);
+  margin-left: 310px;
+  margin-top: 83px;
+}
+/* line 20, ../sass/_main-content.scss */
+.upperContent .rims {
+  width: 420px;
+  height: 130px;
+}
+/* line 24, ../sass/_main-content.scss */
+.upperContent img.rim {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 238px;
+  left: 240px;
+}
+
+/* line 32, ../sass/_main-content.scss */
+.config {
+  padding-left: 25px;
+  padding-top: 20px;
+  margin-top: 2px;
+  float: left;
+  margin-left: 20px;
+  width: 375px;
+  height: 208px;
+  background-color: #4a4a4a;
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: #fff;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+/* line 46, ../sass/_main-content.scss */
+.config .rim {
+  width: 50px;
+  height: 50px;
+}
+
+/* line 52, ../sass/_main-content.scss */
+.configTable {
+  font-family: sans-serif;
+  margin-top: 20px;
+  width: 335px;
+}
+/* line 56, ../sass/_main-content.scss */
+.configTable td {
+  width: 150px;
+}
+/* line 58, ../sass/_main-content.scss */
+.configTable td select {
+  padding-left: 5px;
+  width: 171px;
+  height: 35px;
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+}
+/* line 68, ../sass/_main-content.scss */
+.configTable tr:last-child td:last-child {
+  padding-left: 15px;
+  font-size: 12px;
+  background: linear-gradient(#a3a3a3, #949494);
+  color: #fff;
+  width: 166px;
+  height: 37px;
+  border-radius: 4px;
+  border-top: 1px groove #FFF;
+  border-right: 1px groove #fff;
+  line-height: 37px;
+}
+/* line 79, ../sass/_main-content.scss */
+.configTable tr:last-child td:last-child a {
+  text-decoration: none;
+  color: #FFF;
+}
+/* line 82, ../sass/_main-content.scss */
+.configTable tr:last-child td:last-child a div {
+  width: 166px;
+  height: 37px;
+  display: table-cell;
+}
+/* line 86, ../sass/_main-content.scss */
+.configTable tr:last-child td:last-child a div img {
+  width: 20px;
+  height: 20px;
+  float: right;
+  padding-right: 7px;
+  vertical-align: middle;
+  padding-top: 7px;
+}
+
+/* line 100, ../sass/_main-content.scss */
+.aa, .upperContent div.nissan a > div, .middleContent div.a a > div, .middleContent div.b a > div, .middleContent div.c a > div {
+  border-radius: 1px;
+  padding-left: 40px;
+  line-height: 40px;
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+/* line 113, ../sass/_main-content.scss */
+.middleContent {
+  width: 1020px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+/* line 118, ../sass/_main-content.scss */
+.middleContent div {
+  float: left;
+  width: 326px;
+  height: 200px;
+}
+/* line 122, ../sass/_main-content.scss */
+.middleContent div.a {
+  background: url("../images/main-content/free-delivery.jpg");
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+/* line 126, ../sass/_main-content.scss */
+.middleContent div.a a > div {
+  margin-top: 140px;
+  margin-left: 20px;
+  background: linear-gradient(#fc3334, #e00e0f);
+}
+/* line 133, ../sass/_main-content.scss */
+.middleContent div.b {
+  background: url("../images/main-content/choose-size.jpg");
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+/* line 137, ../sass/_main-content.scss */
+.middleContent div.b a > div {
+  margin-top: 140px;
+  margin-left: 165px;
+  background: linear-gradient(#fc3334, #e00e0f);
+}
+/* line 144, ../sass/_main-content.scss */
+.middleContent div.c {
+  background: url("../images/main-content/premium-rims.jpg");
+  background-size: 100% 100%;
+}
+/* line 147, ../sass/_main-content.scss */
+.middleContent div.c a > div {
+  background: linear-gradient(#6e6e6e, #5e5e5e);
+  margin-left: 165px;
+  margin-top: 140px;
+}
+
+/* line 157, ../sass/_main-content.scss */
+.bottomContent {
+  width: 1020px;
+  height: 680px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  clear: both;
+}
+/* line 165, ../sass/_main-content.scss */
+.bottomContent h3 {
+  clear: both;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 25px;
+  font-family: "Georgia", serif;
+  margin-bottom: 25px;
+}
+/* line 174, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails {
+  width: 1020px;
+  margin-top: 20px;
+  height: 290px;
+  margin-bottom: 20px;
+}
+/* line 179, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div {
+  height: 290px;
+  float: left;
+  border-right: 3px solid #2c2c2c;
+  width: 180px;
+  padding-left: 20px;
+}
+/* line 185, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div:last-child {
+  border-right: none;
+}
+/* line 188, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div img {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  width: 130px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+/* line 196, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div span.name {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 15px;
+  /*
+  &:last-child {
+  	font-size: 13px;
+  	color: $grey;
+  	margin: 0;
+  }
+   */
+}
+/* line 208, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div span.producent {
+  display: block;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #2c2c2c;
+  margin: 0;
+}
+/* line 215, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 221, ../sass/_main-content.scss */
+.bottomContent div.rimsDetails div a div {
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 80px;
+  height: 35px;
+  background: linear-gradient(#e00e0f, #fc3334);
+  line-height: 33px;
+}
+
+/* line 234, ../sass/_main-content.scss */
+.bottomFrame {
+  bottom: 30px;
+  width: 980px;
+  height: 270px;
+  margin: auto;
+  background-color: #151515;
+}
+/* line 240, ../sass/_main-content.scss */
+.bottomFrame table {
+  float: left;
+  margin-top: 20px;
+  color: #fff;
+  width: 600px;
+}
+/* line 245, ../sass/_main-content.scss */
+.bottomFrame table th {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-style: "Georgia", serif;
+  width: 300px;
+  font-size: 20px;
+  text-align: left;
+}
+/* line 254, ../sass/_main-content.scss */
+.bottomFrame table td {
+  padding-left: 20px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #7e7e7e;
+}
+/* line 259, ../sass/_main-content.scss */
+.bottomFrame table td a {
+  text-decoration: none;
+  color: #7e7e7e;
+}
+/* line 263, ../sass/_main-content.scss */
+.bottomFrame table td hr {
+  border: 1px solid #2c2c2c;
+}
+/* line 266, ../sass/_main-content.scss */
+.bottomFrame div {
+  float: left;
+  width: 338px;
+  margin-top: 20px;
+  padding: 20px 20px 0 20px;
+}
+/* line 271, ../sass/_main-content.scss */
+.bottomFrame div span {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 0;
+  font-weight: inherit;
+  font-family: sans-serif;
+}
+/* line 277, ../sass/_main-content.scss */
+.bottomFrame div span hr {
+  border: 1px solid #2c2c2c;
+}
+/* line 279, ../sass/_main-content.scss */
+.bottomFrame div img {
+  width: 340px;
+  height: 50px;
+}
+/* line 283, ../sass/_main-content.scss */
+.bottomFrame div hr.hr2 {
+  border: 1px solid #2c2c2c;
+  margin-bottom: 30px;
+}
+/* line 288, ../sass/_main-content.scss */
+.bottomFrame div span.contactData input {
+  margin-left: 5px;
+  width: 200px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+/* line 298, ../sass/_main-content.scss */
+.bottomFrame div span.contactData a {
+  margin-top: 3px;
+  float: right;
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(#6e6e6e, #5e5e5e);
+  border-radius: 4px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+/* line 6, ../sass/main.scss */
+.pageBackground {
+  width: 1180px;
+  background-image: url(../images/background.jpg);
+  margin: auto;
+}
+
+/* line 11, ../sass/main.scss */
+.background {
+  clear: both;
+  width: 1080px;
+  background-color: #121212;
+  margin: auto;
+}

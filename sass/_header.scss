@@ -1,0 +1,125 @@
+.header {
+	width: $contentWidth;
+	height: 215px;
+	margin: auto;
+		hr {
+			margin-top: 20px;
+			border-color: $grey;
+		}
+}
+.headerRight {
+	float: right;
+	width: 264px;
+}
+.headerButtons {
+	display: table-cell;
+	width: 130px;
+	height: 30px;
+	background: linear-gradient($buttonSecondColor, $buttonFisrtColor);
+	margin-left: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	line-height: 30px;
+	font-size: 12px;
+	padding-top: 5px;
+	float: right;
+
+}
+.headerButtonsGraphic {
+	margin-left: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.headerRightBottom {
+	padding-right: 20px;
+	padding-left: 20px;
+	float: right;
+	margin-top: 10px;
+	width: 224px;
+	height: 167px;
+	background: linear-gradient($headerRightBottomFirstColor, $headerRightBottomSecondColor);
+	color: #fff;
+	font-family: "Times New Roman", serif;
+	font-size: 13px; 
+		span {
+			font-size: 30px;
+			font-weight: bold;
+			&.q {
+				padding-top: 10px;
+				display: table-cell;
+				font-size: 13px;
+				padding-left: 153px;
+				padding-right: 5px;
+				& img {
+					width: 13px;
+					height: 13px;
+					vertical-align: middle;	
+					padding-left: 6px;
+				}
+				a {
+					text-decoration: none;
+					color: #fff;
+				}
+
+			}
+		}
+}
+.buy {
+	position: relative;
+	left: 38px;
+	top: 38px;
+		img {
+			height: 50px;
+			width: 50px;
+		}
+}
+
+div.headerLeft {
+	float: left;
+	width: 754px;
+	height: 213px;
+		.logo {
+			float: left;
+			width: 230px;
+			height: 80px;
+			padding-left: 30px;
+			position: relative;
+			left: 30px;
+			top: 30px;
+			margin-right: 60px;
+		}	
+		.grille {
+			height: 160px;
+			width: 60px;
+			float: right;
+			padding-right: 20px;
+		}
+		.contact {
+			width: 330px;
+			height: 130px;
+		}
+		input {
+			border: none;
+			padding-left: 20px;
+			width: 736px;
+			float: left;
+			height: $searchBarHeight;
+		}
+		span {
+			float: left;
+			img {
+				position: relative;
+				left: 710px;
+				bottom: 45px;
+				width: 40px;
+				height: 40px;
+			}
+		}
+		hr {
+			position: relative;
+			bottom: 110px;
+			width: 754px;
+
+		}
+
+}
